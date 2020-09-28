@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/new_4"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打折神奇"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原價格(NT $ ) : "
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打折(% off) : "
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="計算打折後金額"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grayColor"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="小算盤"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:ignore="ExtraText">
+
+        <EditText
+            android:id="@+id/editText01"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:ems="10"
+            android:hint="數字"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <TextView
+            android:id="@+id/textView01"
+            android:layout_width="72dp"
+            android:layout_height="36dp"
+            android:layout_alignBottom="@+id/editText01"
+            android:layout_toRightOf="@+id/editText01"
+            android:gravity="center_horizontal"
+            android:text="符號"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <EditText
+            android:id="@+id/editText02"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/editText01"
+            android:layout_toRightOf="@+id/textView01"
+            android:ems="10"
+            android:hint="數字"
+            android:inputType="textPersonName"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/editText02"
+            android:text="="
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="298dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="96dp"
+            android:layout_height="51dp"
+            android:layout_alignBottom="@+id/editText01"
+            android:layout_toRightOf="@+id/textView02"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="314dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText01"
+            android:layout_marginTop="0dp"
+            android:text="+"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText01"
+            android:layout_alignBottom="@+id/button0"
+            android:layout_toRightOf="@+id/button0"
+            android:text="-"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText01"
+            android:layout_alignBottom="@+id/button0"
+            android:layout_toRightOf="@+id/button02"
+            android:text="x"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="279dp" />
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText01"
+            android:layout_alignBottom="@+id/button0"
+            android:layout_toRightOf="@+id/button03"
+            android:text="/"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="196dp"
+            tools:layout_editor_absoluteY="279dp" />
+    </RelativeLayout>
+</LinearLayout>

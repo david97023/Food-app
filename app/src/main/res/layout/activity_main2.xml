@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/new_2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/new_2" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button"
+        android:contentDescription="TODO"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/button"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="293dp"
+        android:layout_marginLeft="293dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/button"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/button" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="289dp"
+        android:background="@drawable/button"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/button" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="122dp"
+        android:background="@drawable/button"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/button" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/button" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="561dp"
+        android:background="@drawable/button"
+        android:contentDescription="TODO"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/button" />
+
+</RelativeLayout>
